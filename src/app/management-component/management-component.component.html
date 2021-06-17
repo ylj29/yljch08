@@ -1,0 +1,12 @@
+<div class="manage">
+    <div class="row">
+        <nav class="nav flex-column col-md-3">
+            <a class="nav-link active" style="color: black; font-size: 2rem;" [routerLink]="['user']">用户管理</a>
+            <a class="nav-link" style="color: black; font-size: 2rem;" [routerLink]="['product']">产品管理</a>
+            <a class="nav-link" style="color: black; font-size: 2rem;" [routerLink]="['exit']">退出</a>
+        </nav>
+        <div class="col-md-9">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

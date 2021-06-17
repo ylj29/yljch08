@@ -1,0 +1,17 @@
+nav {
+    padding: 0.5rem;
+    border: 1px solid lightblue;
+}
+
+html,body{
+    height: 100%;
+}
+
+.manage{
+    background: url(src\assets\imgs\3.png);
+    height: 100%;
+}
+
+a:hover{
+    background: lightcyan;
+}
